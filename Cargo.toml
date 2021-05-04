@@ -1,0 +1,11 @@
+[package]
+name = "ld"
+version = "0.0.1"
+edition = "2018"
+
+[[bin]]
+name = "ld"
+path = "ld.rs"
+
+[dependencies]
+ndarray = "0.12.0"
